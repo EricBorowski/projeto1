@@ -1,0 +1,23 @@
+ {
+    "name": "matheus/dionivan",
+    "description": "composer no mangáska",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Matheus\\Dionivan\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dionivan"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "coffeecode/router": "1.0.7",
+        "coffeecode/datalayer": "2.0.6",
+        "coffeecode/optimizer": "2.0.0",
+        "coffeecode/phpmailer": "6.1.4"
+    }
+}
