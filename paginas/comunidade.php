@@ -37,7 +37,7 @@
             <br>
             <br>
 
-    <div align="center" class="eric">
+    <div align="center" class="comunidade">
         <img src="../paginas/assents/img/Web_Photo_Editor.jpg" height="600px"/>
 
 

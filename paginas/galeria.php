@@ -21,7 +21,7 @@
             <img src="https://user-images.githubusercontent.com/104733898/166162037-58628298-8165-428a-9773-67c56ea73466.png" height="300px"/>
             <img src="https://user-images.githubusercontent.com/104733898/166162017-fb0a5176-c388-44a4-9b74-36d9df62e5b5.png" height="300px"/>
             <img src="https://user-images.githubusercontent.com/104733898/166162129-5fe6be3c-ec2b-4e3a-a789-aa2fa0525ffe.png" height="300px"/> 
-            <img src="https://user-images.githubusercontent.com/104733898/166162129-5fe6be3c-ec2b-4e3a-a789-aa2fa0525ffe.png" height="300px"/>      
+            <img src="https://user-images.githubusercontent.com/104733898/166162129-5fe6be3c-ec2b-4e3a-a789-aa2fa0525ffe.png" height="300px"/>     
         </div>       
     </main>
 <?php require_once "../src/view/footer.php"?>

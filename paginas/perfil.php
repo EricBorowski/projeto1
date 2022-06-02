@@ -1,5 +1,5 @@
 <?php
-include "../session/check_session.php";
+
 require_once "../src/view/header.php";
 require_once "../src/view/header_nav.php"; 
 ?>

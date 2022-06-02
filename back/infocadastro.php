@@ -1,6 +1,5 @@
 <?php
- require_once "../src/view/header.php";
-require_once "../src/view/header_nav.php";
+
 require_once "../src/model/Usuarios.php";
 $u = new Usuarios;
 
@@ -19,49 +18,24 @@ if (isset($_POST['nome']))
             {
                if ($u->cadastrar($email,$nome,$senha))
                {
-                    ?>
-                    <div id="msg-sucesso">
-                        <h3>Bem-vindo a Mangáska!</h3>
-                    </div>
-                    <?php
-                    $redirect="<meta http-equiv='refresh' content='3; url=../paginas/perfil.php' />";
+                    echo "Bem-vindo a Mangáska!";
                } else
                {
-                   ?>
-                   <div class="msg-erro">
-                        <h3>Email já cadastrado!</h3>
-                   </div>
-                    <?php
-                    echo $redirect="<meta http-equiv='refresh' content='3; url=../paginas/login.php' />";
+                    echo "Email já cadastrado!";
                }
             }else
             {
-                ?>
-                <div class="msg-erro">
-                    <h3>Senhas não correspondem!</h3>
-                </div>
-                <?php
-               echo $redirect="<meta http-equiv='refresh' content='3; url=../paginas/cadastro.php' />";
+                echo "Senhas não correspondem!";
             }
         }else
         {
-            ?>
-            <div class="msg-erro">
-             <?php echo "Erro: " . $u->msgErro;  ?> 
-            </div>
-            <?php
+            echo "Erro: " . $u->msgErro;
         }
 
     } else
     {
-        ?>
-        <div class="msg-erro">
-          Preencha todos os campos!  
-        </div>
-        <?php
-        echo $redirect="<meta http-equiv='refresh' content='3; url=../paginas/cadastro.php' />";
+        echo "Preencha todos os campos!";
     }
 }
 
-require_once "../src/view/footer.php";
 ?>
