@@ -1,0 +1,1 @@
+Oi pessoal!Tô tentando codificar a base do nosso site... Temos o modelo, mas quis dar uma pequena modificada na coloração, só pra teste. Ajustem o que acharem melhor!

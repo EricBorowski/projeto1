@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.Cabeçalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: darkred;
+}
+.navega{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+.Menu {      
+    font-size: 18px;
+    color: rgb(255, 249, 249);
+    transition: 0.5s;
+    opacity: 0.7;
+}
+.Login {
+    font-family: 'Ms Madi', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    background-color: rgb(8, 8, 109);
+    box-shadow: rebeccapurple;
+    border-radius: 10px;
+    width: 65px;
+    height: 30px;
+    transition: 0.5s;
+    opacity: 0.9;
+}
+body{
+    font-size: 100%;
+    background: rgb(0,4,36);
+    background: linear-gradient(90deg, rgba(0,4,36,1) 0%, rgba(1,1,84,1) 50%, rgb(59, 13, 130) 100%);
+}
+.Corpo {
+    border-top: 0.4px solid blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div#msg-sucesso{
+    color: darkred;
+    align-items: center;  
+}
+div.msg-erro{
+    color: darkred;
+    margin-top: 5%;
+    text-align: center;
+}
+.lançamento{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: rgb(91, 75, 122);
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+.nav-main{
+    color: darkred;
+    margin-top: 2%;
+    align-items: flex-start;
+}
+.titulo-acesso{
+    color: darkred;
+    font-size: 250%;
+    font-family: 'Tapestry', cursive;
+    margin: 5px;
+    font-weight: 400;
+}
+footer{
+    color: darkblue;
+    background-color: darkred;
+    align-items: center;
+    border-top: 0.4px solid blueviolet;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 9%;
+}
+.comunidade{
+    margin-bottom: 200px;
+}
+.termos{
+    margin-bottom: 200px;
+}
+.sobre{
+    margin-bottom: 200px;
+}
